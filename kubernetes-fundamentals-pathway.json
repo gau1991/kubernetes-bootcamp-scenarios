@@ -1,0 +1,37 @@
+{
+    "title": "Kubernetes Fundamentals",
+    "icon": "fa-kubernetes",
+    "description": "Learn the fundamental building blocks of Kubernetes with hands-on xplanations.",
+    "courses": [
+      {
+        "course_id": "1",
+        "title": "Module 1 - Create a Kubernetes cluster",
+        "description": "Create a Kubernetes cluster."
+      },
+      {
+        "course_id": "7",
+        "title": "Module 2 - Deploy an app",
+        "description": "Deploy an app."
+      },
+      {
+        "course_id": "4",
+        "title": "Module 3: Explore your app",
+        "description": "Module 3: Explore your app"
+      },
+      {
+        "course_id": "8",
+        "title": "Module 4: Expose your app publicly",
+        "description": "Expose your app publicly"
+      },
+      {
+        "course_id": "5",
+        "title": "Module 5: Scale up your app",
+        "description": "Scale up your app"
+      },
+      {
+        "course_id": "6",
+        "title": "Module 6: Update your app",
+        "description": "Update your app"
+      }
+    ]
+  }
