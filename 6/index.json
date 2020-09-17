@@ -9,7 +9,10 @@
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
-		"hidefinish": false
+		"hidefinish": false,
+		"dashboards": [
+			{"name": "Kubernetes Dashboard", "port": 30000}
+		]
 	},
 	"details": {
 		"steps": [{

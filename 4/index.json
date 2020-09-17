@@ -9,21 +9,24 @@
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
-		"hidefinish": false
+		"hidefinish": false,
+		"dashboards": [
+			{"name": "Kubernetes Dashboard", "port": 30000}
+		]
 	},
 	"details": {
 		"steps": [{
-			"title": " Step 1 Check application configuration",
+			"title": "Step 1: Check application configuration",
 			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
-			"title": "Step 2 Show the app in the terminal",
+			"title": "Step 2: Show the app in the terminal",
 			"text": "step2.md"
 		}, {
-			"title": "Step 3 View the container logs",
+			"title": "Step 3: View the container logs",
 			"text": "step3.md"
 		}, {
-			"title": "Step 4 Executing command on the container ",
+			"title": "Step 4: Executing command on the container ",
 			"text": "step4.md"
 		}],
 		"intro": {

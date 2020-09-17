@@ -9,18 +9,21 @@
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
-		"hidefinish": false
+		"hidefinish": false,
+		"dashboards": [
+			{"name": "Kubernetes Dashboard", "port": 30000}
+		]
 	},
 	"details": {
 		"steps": [{
-			"title": "kubectl basics",
+			"title": "Step 1: kubectl basics",
 			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
-			"title": "Deploy our app",
+			"title": "Step 2: Deploy our app",
 			"text": "step2.md"
 		}, {
-			"title": "View our app",
+			"title": "Step 3: View our app",
 			"text": "step3.md"
 		}],
 		"intro": {

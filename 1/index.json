@@ -9,18 +9,24 @@
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
-		"hidefinish": false
+		"hidefinish": false,
+		"dashboards": [
+			{"name": "Kubernetes Dashboard", "port": 30000}
+		]
 	},
 	"details": {
 		"steps": [{
-			"title": "Cluster up and running",
+			"title": "Step 1: Cluster up and running",
 			"text": "step1.md"
 		}, {
-			"title": "Cluster version",
+			"title": "Step 2: View Cluster version",
 			"text": "step2.md"
 		}, {
-			"title": "Cluster details",
+			"title": "Step 3: View Cluster details",
 			"text": "step3.md"
+		}, {
+			"title": "Step 4: View Kubernetes Dashboard",
+			"text": "step4.md"
 		}],
 		"intro": {
 			"courseData": "env-init.sh",

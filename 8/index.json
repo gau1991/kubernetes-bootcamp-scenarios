@@ -9,18 +9,21 @@
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
-		"hidefinish": false
+		"hidefinish": false,
+		"dashboards": [
+			{"name": "Kubernetes Dashboard", "port": 30000}
+		]
 	},
 	"details": {
 		"steps": [{
-			"title": "Step 1 Create a new service",
+			"title": "Step 1: Create a new service",
 			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
 			"title": "Step 2: Using labels",
 			"text": "step2.md"
 		}, {
-			"title": "Step 3 Deleting a service",
+			"title": "Step 3: Deleting a service",
 			"text": "step3.md"
 		}],
 		"intro": {
