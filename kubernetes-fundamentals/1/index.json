@@ -3,7 +3,7 @@
 	"title": "Module 1 - Create a Kubernetes cluster",
 	"description": "Create a Kubernetes cluster",
 	"backend": {
-		"imageid": "minikube-running"
+		"dockerimage": "minikube-running"
 	},
 	"environment": {
 		"uilayout": "terminal",
@@ -17,6 +17,7 @@
 	"details": {
 		"steps": [{
 			"title": "Step 1: Cluster up and running",
+			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
 			"title": "Step 2: View Cluster version",
