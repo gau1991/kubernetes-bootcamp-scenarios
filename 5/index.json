@@ -3,7 +3,6 @@
 	"description": "Scale up your app",
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"backend": {
-		"port": 30000,
 		"dockerimage": "minikube-running"
 	},
 	"files": ["App"],
@@ -11,6 +10,7 @@
 		"uilayout": "terminal",
 		"hideintro": false,
 		"hidefinish": false,
+		"showdashboard": true,
 		"dashboards": [
 			{"name": "Kubernetes Dashboard", "port": 30000}
 		]

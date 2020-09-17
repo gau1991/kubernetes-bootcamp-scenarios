@@ -3,13 +3,13 @@
 	"title": "Module 2 - Deploy an app",
 	"description": "Deploy an app",
 	"backend": {
-		"port": 30000,
 		"dockerimage": "minikube-running"
 	},
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
 		"hidefinish": false,
+		"showdashboard": true,
 		"dashboards": [
 			{"name": "Kubernetes Dashboard", "port": 30000}
 		]

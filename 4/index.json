@@ -3,13 +3,13 @@
 	"description": "Explore your app",
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"backend": {
-		"port": 30000,
 		"dockerimage": "minikube-running"
 	},
 	"environment": {
 		"uilayout": "terminal",
 		"hideintro": false,
 		"hidefinish": false,
+		"showdashboard": true,
 		"dashboards": [
 			{"name": "Kubernetes Dashboard", "port": 30000}
 		]
