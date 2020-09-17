@@ -1,1 +1,1 @@
-#In this tutorial you learned how to do basic troubleshooting for your Kubernetes applications. You should now know what commands to use to view logs, list resources and execute commands in the containers. #
+# You learned in this chapter how to create Services, how to expose applications and how to use labels. #

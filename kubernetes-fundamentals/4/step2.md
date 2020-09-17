@@ -1,16 +1,30 @@
-Recall that Pods are running in an isolated, private network - so we need to proxy access
-to them so we can debug and interact with them. To do this, we'll use the `kubectl proxy` command to run a proxy in a second terminal window. Click on the command below to automatically open a new terminal and run the `proxy`:
+The Deployment created automatically a label for our Pod. With `describe deployment` command you can see the name of the label:
 
-`echo -e "\n\n\n\e[92mStarting Proxy. After starting it will not output a response. Please click the first Terminal Tab\n"; kubectl proxy`{{execute T2}}
+`kubectl describe deployment`{{execute}}
 
-Now again, we'll get the Pod name and query that pod directly through the proxy.
-To get the Pod name and store it in the POD_NAME environment variable:
+Let’s use this label to query our list of Pods. We’ll use the `kubectl get pods` command with -l as a parameter, followed by the label values:
+
+`kubectl get pods -l run=kubernetes-bootcamp`{{execute}}
+
+You can do the same to list the existing services:
+
+`kubectl get services -l run=kubernetes-bootcamp`{{execute}}
+
+Get the name of the Pod and store it in the POD_NAME environment variable:
 
 `export POD_NAME=$(kubectl get pods -o go-template --template '{{range .items}}{{.metadata.name}}{{"\n"}}{{end}}')
-echo Name of the Pod: $POD_NAME`{{execute T1}}
+echo Name of the Pod: $POD_NAME`{{execute}}
 
-To see the output of our application, run a `curl` request.
+To apply a new label we use the label command followed by the object type, object name and the new label:
 
-`curl http://localhost:8001/api/v1/namespaces/default/pods/$POD_NAME/proxy/`{{execute T1}}
+`kubectl label pod $POD_NAME app=v1`{{execute}}
 
-The url is the route to the API of the Pod.
+This will apply a new label to our Pod (we pinned the application version to the Pod), and we can check it with the describe pod command:
+
+`kubectl describe pods $POD_NAME`{{execute}}
+
+We see here that the label is attached now to our Pod. And we can query now the list of pods using the new label:
+
+`kubectl get pods -l app=v1`{{execute}}
+
+And we see the Pod.

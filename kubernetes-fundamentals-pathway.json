@@ -9,17 +9,17 @@
         "description": "Create a Kubernetes cluster."
       },
       {
-        "course_id": "7",
+        "course_id": "2",
         "title": "Module 2 - Deploy an app",
         "description": "Deploy an app."
       },
       {
-        "course_id": "4",
+        "course_id": "3",
         "title": "Module 3: Explore your app",
         "description": "Module 3: Explore your app"
       },
       {
-        "course_id": "8",
+        "course_id": "4",
         "title": "Module 4: Expose your app publicly",
         "description": "Expose your app publicly"
       },

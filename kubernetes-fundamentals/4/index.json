@@ -1,6 +1,6 @@
 {
-	"title": "Module 3 - Explore your app",
-	"description": "Explore your app",
+	"title": "Module 4 - Expose your app publicly",
+	"description": "Expose your app publicly",
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"backend": {
 		"dockerimage": "minikube-running"
@@ -16,18 +16,15 @@
 	},
 	"details": {
 		"steps": [{
-			"title": "Step 1: Check application configuration",
+			"title": "Step 1: Create a new service",
 			"code": "foreground.sh",
 			"text": "step1.md"
 		}, {
-			"title": "Step 2: Show the app in the terminal",
+			"title": "Step 2: Using labels",
 			"text": "step2.md"
 		}, {
-			"title": "Step 3: View the container logs",
+			"title": "Step 3: Deleting a service",
 			"text": "step3.md"
-		}, {
-			"title": "Step 4: Executing command on the container ",
-			"text": "step4.md"
 		}],
 		"intro": {
 			"courseData": "env-init.sh",
