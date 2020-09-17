@@ -3,7 +3,7 @@
 	"description": "Explore your app",
 	"pathwayTitle": "Kubernetes Bootcamp",
 	"backend": {
-		"dockerimage": "minikube-running"
+		"imageid": "minikube-running"
 	},
 	"environment": {
 		"uilayout": "terminal",

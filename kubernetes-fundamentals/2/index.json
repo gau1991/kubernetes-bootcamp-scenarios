@@ -3,7 +3,7 @@
 	"title": "Module 2 - Deploy an app",
 	"description": "Deploy an app",
 	"backend": {
-		"dockerimage": "minikube-running"
+		"imageid": "minikube-running"
 	},
 	"environment": {
 		"uilayout": "terminal",
