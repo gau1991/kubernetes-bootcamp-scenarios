@@ -5,12 +5,12 @@
     "courses": [
       {
         "course_id": "1",
-        "title": "Module 1 - Create a Kubernetes cluster",
+        "title": "Module 1: Create a Kubernetes cluster",
         "description": "Create a Kubernetes cluster."
       },
       {
         "course_id": "2",
-        "title": "Module 2 - Deploy an app",
+        "title": "Module 2: Deploy an app",
         "description": "Deploy an app."
       },
       {
