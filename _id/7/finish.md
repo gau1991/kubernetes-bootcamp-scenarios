@@ -1,1 +1,0 @@
-# Di dalam tutorial ini kita telah berhasil men-_deploy_ aplikasi Kubernetes pertama kita, dan telah menyaksikan bagaimana aplikasi tersebut berjalan. Pada skenario selanjutnya kita akan men-_debug_ aplikasi kita. #
